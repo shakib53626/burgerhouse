@@ -83,12 +83,14 @@ header{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 112px;
 	margin: 15px 0 0 0;
+	text-shadow: 5px 5px 3px rgba(255, 255, 255, 0.6);
 }
 .banner-1 h2{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 56px;
 	margin: 0;
 	padding: 0;
+	text-shadow: 5px 5px 3px rgba(255, 255, 255, 0.6);
 }
 .m-35{
 	margin-bottom: 37px;
