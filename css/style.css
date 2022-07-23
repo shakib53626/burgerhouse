@@ -1,0 +1,456 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* **********************************
+	Header Section Css code Start
+************************************* */
+
+
+
+header{
+	width: 100%;
+	position: absolute;
+}
+.container-fluid{
+	padding: 30px 0;
+}
+.delivary{
+	text-align: right;
+}
+.delivary span{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	font-weight: 600;
+}
+.collapse ul li{
+	margin-left: 30px;
+}
+.nav-item a{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514 !important;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.nav-link{
+	padding: 0 !important;
+}
+
+/* **********************************
+	Header Section Css code End
+************************************* */
+
+
+
+
+/* **********************************
+	Banner-1 Section Css code Start
+************************************* */
+
+
+
+
+.banner-1{
+	width: 100%;
+	background-image: url('../img/banner-bg.png');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	margin-bottom: 80px;
+}
+.banner-1 span{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 24px;
+	border: 2px dashed #3d2514;
+	padding: 12px;
+	letter-spacing: 1px;
+}
+.banner-1 h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 112px;
+	margin: 15px 0 0 0;
+}
+.banner-1 h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	margin: 0;
+	padding: 0;
+}
+.m-35{
+	margin-bottom: 37px;
+}
+
+
+
+/* **********************************
+	Banner-1 Section Css code End
+************************************* */
+/* **********************************
+	banner-2 Section Css code Start
+************************************* */
+.banner-2{
+	margin-bottom: 40px;
+}
+
+.ban-item{
+	position: relative;
+}
+.ban-2-text{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+
+}
+.ban-2-text h5{
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+.ban-2-text h2{
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+/* **********************************
+	Banner-2 Section Css code End
+************************************* */
+
+
+/* **********************************
+	Buy-Item Section Css code Start
+************************************* */
+
+.tasty{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	color: #3d2514;
+	margin-bottom: 20px;
+}
+.tasty h4{
+	background-color: #ffc045;
+	padding: 10px 0;
+	letter-spacing: 1px;
+}
+.buy-title h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+.buy-contant p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.burger-item{
+	margin-bottom: 80px;
+}
+
+.burger-item h2{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 36px;
+}
+.burger-item p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	padding:0 80px;
+	margin-bottom: 40px;
+}
+.burger-item .order-btn{
+	font-family: 'Alfa Slab One', cursive;
+	color: white;
+	font-size: 16px;
+	padding:15px 20px;
+	text-decoration: none;
+	border: none;
+	position: relative;
+	z-index: 999;
+	cursor: pointer;
+}
+.img-width{
+	width: 400px;
+}
+.burger-item .buy-b::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background-color: green;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+.burger-item .order-btn:hover::before{
+	width: 100%;
+	transition: 0.5s;
+	border-radius: 0 50% 50% 0;
+}
+.burger-item .buy-btn::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background-color: green;
+	left: 50%;
+	right: 50%;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+.burger-item .buy-btn:hover::before{
+	left: 0;
+	right: 0;
+	transition: 0.5s;
+	border-radius: 50% 50% 50% 50%;
+}
+
+.burger-item .buy-bt::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background-color: green;
+	right: 0 !important;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+.burger-item .buy-bt:hover::before{
+	width: 100%;
+	transition: 0.5s;
+	border-radius: 50% 0 0 50%;
+}
+
+
+
+/* **********************************
+	Buy-item Section Css code end
+************************************* */
+
+/* **********************************
+	Events Section Css code end
+************************************* */
+
+
+.event-content h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: #3d2514;
+}
+.event-content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	color: #3d2514;
+	margin-bottom: 20px;
+}
+.event-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-right: 30px;
+}
+.owl-nav{
+	display: none;
+}
+.owl-shedow{
+	padding: 30px;
+	margin-bottom: 80px;
+	box-shadow: 15px 15px 20px -10px rgba(0, 0, 0, 0.5), -5px -5px 10px -10px rgba(0, 0, 0, 0.4);
+}
+.owl-dots{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #f7dd0a !important;
+}
+
+
+/* **********************************
+	Events Section Css code end
+************************************* */
+
+/* **********************************
+	Booking Section Css code start
+************************************* */
+
+.booking{
+	width: 100%;
+	background-image: url('../img/burger-8.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	padding: 150px 0;
+}
+.book-content{
+	padding: 60px 0;
+}
+.book-content h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	color: #3d2514;
+	letter-spacing: 2px;
+}
+.book-content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 48px;
+	color: #3d2514;
+}
+.booking-form input{
+	color: #3d2514;
+	padding: 15px 20px;
+	margin: 15px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #3d2514;
+}
+.booking-form input:focus{
+	outline: none;
+	border: 2px solid green;
+}
+.booking-form input::placeholder{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #3d2514;
+}
+.burger-item .order-btn{
+	font-family: 'Alfa Slab One', cursive;
+	color: white;
+	border: none;
+	font-size: 20px;
+	position: relative;
+	text-decoration: none;
+	padding: 15px 130px;
+	margin: 15px 15px;
+	border-radius: 5px;
+
+}
+
+
+
+/* **********************************
+	Booking Section Css code end
+************************************* */
+
+
+/* **********************************
+	Footer Section Css code Start
+************************************* */
+
+.footer{
+	width: 100%;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+.footer-bg{
+	background-image: url('../img/footer.png');
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer-left{
+	padding-top: 70px;
+	padding-left: 30px;
+}
+.footer-left img{
+	margin-bottom: 40px;
+}
+.footer-left-content{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: white;
+	padding-right: 60px;
+	margin-bottom: 130px;
+}
+.copyright{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+.footer-right-content{
+	margin-top: 200px;
+}
+.location i{
+	color: white;
+	font-size: 25px;
+	margin-right: 26px;
+	margin-bottom: 10px;
+}
+.mail i{
+	color: white;
+	font-size: 25px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.loc-content{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 22px;
+}
+.icons{
+	margin-left: 240px;
+}
+.icons i{
+	margin-right: 10px;
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	margin-top: 130px;
+	font-size: 20px;
+	transition: .5s;
+}
+.fa-whatsapp:hover{
+	background: green;
+	color: white !important;
+	transition: .5s;
+}
+.fa-twitter:hover{
+	background: skyblue;
+	color: white !important;
+	transition: .5s;
+}
+.fa-instagram:hover{
+	background: #A83896;
+	color: white !important;
+	transition: .5s;
+}
+.fa-linkedin-in:hover{
+	background: #0C61BF;
+	color: white !important;
+	transition: .5s;
+}
+
+
+
+
+/* **********************************
+	Footer Section Css code end
+************************************* */
+
