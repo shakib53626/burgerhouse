@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 a{
 	text-decoration: none;
@@ -45,6 +46,44 @@ header{
 }
 .nav-link{
 	padding: 0 !important;
+}
+
+
+/* header Responsive code Start */
+
+@media screen and (max-width: 768px) {
+	
+	.navbar a img{
+		position: absolute;
+		width: 200px;
+		left: 130px;
+	}
+	.delivary{
+	position: absolute;
+	left: 0px;
+	top: 65px;
+	font-size: 16px;
+	}
+
+
+	.navbar button{
+		position: absolute;
+		right: 0;
+		top: 60px;
+	}
+	.collapse{
+		position: absolute;
+		right: 0px;
+		top: 110px;
+		text-align: right;
+	}
+	.nav-item a:hover{
+		color: yellow !important;
+		background: #3d2514;
+		padding: 8px 12px !important;
+	}
+
+	
 }
 
 /* **********************************
@@ -96,6 +135,30 @@ header{
 	margin-bottom: 37px;
 }
 
+/* header Responsive code Start */
+
+@media screen and (max-width: 992px) {
+	
+.banner-1 h1{
+	position: absolute;
+	font-size: 80px;
+	left: 160px;
+	top: 280px;
+}
+.banner-1 span{
+	position: absolute;
+	font-size: 20px;
+	left: 160px;
+	top: 230px;
+}
+.banner-1 h2{
+	position: absolute;
+	font-size: 40px;
+	left: 160px;
+	top: 410px;
+}
+
+}
 
 
 /* **********************************
@@ -128,6 +191,20 @@ header{
 	font-size: 40px;
 	padding: 0;
 	margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.ban-2-text{
+	top: 10px;
+	left: 20px;
+	}
+	.ban-2-text h5{
+		font-size: 18px;
+	}
+	.ban-2-text h2{
+		font-size: 30px;
+	}
+
 }
 
 /* **********************************
@@ -245,7 +322,6 @@ header{
 }
 
 
-
 /* **********************************
 	Buy-item Section Css code end
 ************************************* */
@@ -349,6 +425,9 @@ header{
 	margin: 15px 15px;
 	border-radius: 5px;
 
+}
+.resp-btn{
+	display: none;
 }
 
 
