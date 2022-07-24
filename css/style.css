@@ -51,7 +51,7 @@ header{
 
 /* header Responsive code Start */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	
 	.navbar a img{
 		position: absolute;
@@ -78,9 +78,7 @@ header{
 		text-align: right;
 	}
 	.nav-item a:hover{
-		color: yellow !important;
-		background: #3d2514;
-		padding: 8px 12px !important;
+		color: white !important;
 	}
 
 	
